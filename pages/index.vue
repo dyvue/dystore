@@ -26,7 +26,7 @@
               class="px-2"
               v-for="(item, index) of product.category.datas"
               :key="index"
-              :class="{ 'px-4': index == product.category.datas.length - 1 }"
+              :class="{ 'pr-4': index == product.category.datas.length - 1 }"
             >
               <phone-card-product-category
                 :name="item.name"
