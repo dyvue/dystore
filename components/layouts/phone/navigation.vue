@@ -1,5 +1,5 @@
 <template>
-  <div class="ss-navigation fixed bottom-0 left-0 w-full ss-shadow px-5">
+  <div class="ss-navigation ss-max-frame bottom-0 w-full ss-shadow px-5">
     <ul class="grid grid-cols-5 gap-3">
       <li class="ss-navigation-list" :class="listName('index')">
         <nuxt-link to="/" class="flex flex-col items-center justify-center py-3">

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="ss-frame">
     <Nuxt/>
     <phone-navigation/>
   </div>

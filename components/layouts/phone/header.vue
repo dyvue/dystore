@@ -3,7 +3,7 @@
     <nav
       v-if="$route.name === 'index'"
       :class="{ 'scrolled': !view.atTopOfPage }"
-      class="p-4 ss-header-index"
+      class="p-4 ss-max-frame ss-header-index"
     >
       <div class="flex justify-between items-center">
         <phone-input
