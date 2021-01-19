@@ -1,0 +1,64 @@
+$colorPrimary: #3A2D78
+$colorYellow: #FED215
+$colorSkyblue: #3ABEF0
+$colorBlack: #2e2d32
+$colorGrey: #ABABAB
+$colorForm: #f9fafc
+
+body
+  color: $colorBlack
+.ss
+  &-page
+    margin-bottom: 80px
+  &-header
+    &-index
+      position: fixed
+      z-index: 999
+      width: 100%
+    & a
+      & i
+        font-size: 18px
+  &-shadow
+    box-shadow: 0 0 10px #ccc
+  &-input
+    transition: .4s ease-in
+    outline: none !important
+    &-icon
+      font-size: 22px
+      position: absolute
+      top: 15px
+      left: 15px
+      color: $colorGrey
+    &:focus
+      color: $colorBlack
+      &-icon
+        display: none
+  &-navigation
+    z-index: 999 !important
+    position: fixed
+    background-color: #ffffff
+    &-list
+      @apply text-black
+      &.active
+        @apply text-primary
+  &-card
+    &-product
+      width: 100%
+      &-category
+        width: 150px
+input,
+textarea,
+button,
+select,
+a
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+.fade-enter-active, .fade-leave-active 
+  transition: opacity .2s
+.fade-enter, .fade-leave-active
+  opacity: 0
+
+
+
+.splide__arrow
+  display: none !important
