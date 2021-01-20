@@ -1,57 +1,62 @@
 <template>
-  <div>
-    <phone-header />
-    <div class="ss-page">
-      <div>
-        <client-only>
-          <splide :options="options" has-slider-wrapper>
-            <splide-slide v-for="(item, index) in slider.datas" :key="index">
-              <img :src="item.images" alt="slide.alt" />
-            </splide-slide>
-          </splide>
-        </client-only>
-      </div>
-      <div class="mt-5">
-        <div class="px-4 flex justify-between items-center">
-          <h4 class="text-lg">
-            <span class="font-semibold">Kategori</span> Terpopuler
-          </h4>
-          <nuxt-link to="/" class="text-sm text-primary"
-            >Tampilkan Semua</nuxt-link
-          >
+  <div v-if="$device.isDesktop">
+    Desktop View
+  </div>
+  <div v-else>
+    <div>
+      <phone-header />
+      <div class="ss-page">
+        <div>
+          <client-only>
+            <splide :options="options" has-slider-wrapper>
+              <splide-slide v-for="(item, index) in slider.datas" :key="index">
+                <img :src="item.images" alt="slide.alt" />
+              </splide-slide>
+            </splide>
+          </client-only>
         </div>
-        <div class="relative overflow-auto pb-3">
-          <div class="flex pt-4 pl-2">
-            <div
-              class="px-2"
-              v-for="(item, index) of product.category.datas"
-              :key="index"
-              :class="{ 'pr-4': index == product.category.datas.length - 1 }"
+        <div class="mt-5">
+          <div class="px-4 flex justify-between items-center">
+            <h4 class="text-lg">
+              <span class="font-semibold">Kategori</span> Terpopuler
+            </h4>
+            <nuxt-link to="/" class="text-sm text-primary"
+              >Tampilkan Semua</nuxt-link
             >
-              <phone-card-product-category
-                :name="item.name"
-                :desc="item.desc"
-                :images="item.images"
-              />
+          </div>
+          <div class="relative overflow-auto pb-3">
+            <div class="flex pt-4 pl-2">
+              <div
+                class="px-2"
+                v-for="(item, index) of product.category.datas"
+                :key="index"
+                :class="{ 'pr-4': index == product.category.datas.length - 1 }"
+              >
+                <phone-card-product-category
+                  :name="item.name"
+                  :desc="item.desc"
+                  :images="item.images"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="px-4 mt-5">
-        <div class="flex justify-between items-center">
-          <h4 class="text-lg">
-            <span class="font-semibold">Rekomendasi</span> untuk kamu
-          </h4>
-        </div>
-        <div class="mt-5">
-          <div class="flex flex-col gap-2">
-            <phone-card-product
-              v-for="(item, index) of product.datas"
-              :key="index"
-              :name="item.name"
-              :price="item.price"
-              :images="item.images"
-            />
+        <div class="px-4 mt-5">
+          <div class="flex justify-between items-center">
+            <h4 class="text-lg">
+              <span class="font-semibold">Rekomendasi</span> untuk kamu
+            </h4>
+          </div>
+          <div class="mt-5">
+            <div class="flex flex-col gap-2">
+              <phone-card-product
+                v-for="(item, index) of product.datas"
+                :key="index"
+                :name="item.name"
+                :price="item.price"
+                :images="item.images"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -68,7 +73,7 @@ import PhoneCardProductCategory from "@/components/layouts/phone/basic/card/prod
 import PhoneCardProduct from "@/components/layouts/phone/basic/card/product";
 export default {
   transition: "fade",
-  layout: "phone/navigation",
+  layout: (ctx) => ctx.isMobile ? 'phone/navigation' : 'default',
   components: {
     PhoneHeader,
     PhoneInput,
