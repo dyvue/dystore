@@ -2,7 +2,7 @@
   <div v-if="$device.isDesktop">
     Desktop View
   </div>
-  <div v-else>
+  <div v-else-if="$device.isMobileOrTablet">
     <div>
       <phone-header />
       <div class="ss-page">
