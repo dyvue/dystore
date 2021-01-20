@@ -16,10 +16,11 @@ export default {
     { src: '@/plugins/vue/splide', ssr: false }
   ],
   components: true,
-  buildModules: ["@nuxtjs/tailwindcss"],
-  modules: [
+  buildModules: [
+    "@nuxtjs/tailwindcss",
     '@nuxtjs/device',
   ],
+  modules: [],
   globalName: 'dystore',
   build: {
     publicPath: 'dystore'

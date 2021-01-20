@@ -1,6 +1,7 @@
 <template>
   <div v-if="$device.isDesktop">
-    Desktop View
+    Desktop View - 
+    {{ $device.isDesktop }}
   </div>
   <div v-else-if="$device.isMobileOrTablet">
     <div>
@@ -73,7 +74,7 @@ import PhoneCardProductCategory from "@/components/layouts/phone/basic/card/prod
 import PhoneCardProduct from "@/components/layouts/phone/basic/card/product";
 export default {
   transition: "fade",
-  layout: (ctx) => ctx.isMobile ? 'phone/navigation' : 'default',
+  layout: (ctx) => ctx.isMobileOrTablet ? 'phone/navigation' : 'default',
   components: {
     PhoneHeader,
     PhoneInput,
