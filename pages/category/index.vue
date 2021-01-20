@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import PhoneHeader from '@/components/layouts/phone/header'
+import PhoneHeader from '@/components/phone/header'
 export default {
   transition: 'fade',
-  layout: 'phone/navigation',
+  layout: (ctx) => ctx.isMobileOrTablet ? 'phone/default' : 'desktop/default',
   components: {
     PhoneHeader
   },

@@ -32,8 +32,8 @@ body
     &-icon
       font-size: 22px
       position: absolute
-      top: 15px
-      left: 15px
+      top: 10px
+      left: 10px
       color: $colorGrey
     &:focus
       color: $colorBlack
@@ -52,6 +52,32 @@ body
       width: 100%
       &-category
         width: 150px
+.sd
+  &-header
+    border-bottom: 1px solid $colorGrey
+  &-btn
+    outline: none !important
+    @apply px-4
+    @apply py-1
+    @apply rounded-md
+    &-primary
+      border: 1.6px solid $colorPrimary
+      color: $colorForm
+      background-color: $colorPrimary
+    &-outline-primary
+      border: 1.6px solid $colorPrimary
+      @apply text-primary
+  &-input
+    transition: .4s ease-in
+    border: 1px solid $colorGrey
+    outline: none !important
+    &:focus
+      color: $colorBlack
+    &-btn
+      transition: .4s ease-in
+      border: 1px solid $colorGrey
+      outline: none !important
+
 input,
 textarea,
 button,

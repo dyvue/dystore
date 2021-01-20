@@ -27,7 +27,7 @@
 <script>
 import { ArrowLeftIcon } from "vue-feather-icons";
 
-import PhoneInput from "@/components/layouts/phone/basic/input";
+import PhoneInput from "@/components/phone/basic/input";
 export default {
   props: {
     title: String,

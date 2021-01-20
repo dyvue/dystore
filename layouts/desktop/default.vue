@@ -1,12 +1,11 @@
 <template>
-  <div class="ss-frame">
+  <div>
     <Nuxt/>
-    <phone-navigation/>
   </div>
 </template>
 
 <script>
-import PhoneNavigation from '@/components/layouts/phone/navigation'
+import PhoneNavigation from '@/components/phone/navigation'
 export default {
   components: {
     PhoneNavigation
