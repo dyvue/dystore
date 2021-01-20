@@ -17,7 +17,9 @@ export default {
   ],
   components: true,
   buildModules: ["@nuxtjs/tailwindcss"],
-  modules: [],
+  modules: [
+    '@nuxtjs/device',
+  ],
   globalName: 'dystore',
   build: {
     publicPath: 'dystore'
