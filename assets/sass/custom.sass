@@ -2,11 +2,12 @@ $colorPrimary: #3A2D78
 $colorYellow: #FED215
 $colorSkyblue: #3ABEF0
 $colorBlack: #2e2d32
-$colorGrey: #ABABAB
+$colorGrey: #e0dede
 $colorForm: #f9fafc
 
 body
   color: $colorBlack
+
 .ss
   &-frame
     position: relative
@@ -27,7 +28,7 @@ body
   &-shadow
     box-shadow: 0 0 10px #ccc
   &-input
-    transition: .4s ease-in
+    transition: .2s ease-in
     outline: none !important
     &-icon
       font-size: 22px
@@ -68,15 +69,40 @@ body
       border: 1.6px solid $colorPrimary
       @apply text-primary
   &-input
-    transition: .4s ease-in
+    transition: .2s ease-in
     border: 1px solid $colorGrey
     outline: none !important
     &:focus
       color: $colorBlack
     &-btn
-      transition: .4s ease-in
+      transition: .2s ease-in
       border: 1px solid $colorGrey
       outline: none !important
+  &-link
+    transition: .2s ease-in
+    &:hover
+      color: $colorPrimary
+    &:focus
+      outline: none
+  &-banner
+    height: 400px
+    &-golden
+      height: 200px
+  &-section
+    &-divider
+      border-top: 1px solid $colorGrey
+    &-header
+      @apply font-semibold
+      @apply text-2xl
+      @apply tracking-wider
+  &-category
+    img
+      @apply rounded-md
+      @apply border
+      border-color: transparent
+      transition: .2s ease-in
+    &:hover img
+      @apply border-primary
 
 input,
 textarea,

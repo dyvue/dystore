@@ -1,19 +1,64 @@
 <template>
   <div v-if="$device.isDesktop">
     <desktop-header/>
-    <div class="container mx-auto px-24">
-      <div class="py-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vero nemo laboriosam? Vel laborum velit laboriosam deleniti a neque nemo. Quis optio at recusandae laboriosam ullam ab! Commodi nisi animi inventore voluptatibus facilis at est molestias placeat delectus repellendus itaque aliquid voluptatum quasi blanditiis dolorum obcaecati, adipisci, laborum ad provident accusantium minima? Magnam dolorem repellat quas adipisci veniam beatae facere porro, deleniti laboriosam eius officiis, id in praesentium maiores! Iure exercitationem id distinctio cumque magni vitae soluta aperiam quod consectetur commodi aliquid sequi facere dolore quae suscipit nostrum cum error eligendi, temporibus laudantium autem doloremque dolorem perferendis. Itaque fugit quas sequi nesciunt deserunt! Incidunt, animi eligendi cupiditate quos quisquam maxime, excepturi laboriosam perspiciatis id architecto doloribus est dolorem, suscipit cumque odio! Numquam, accusamus voluptates optio officia soluta saepe dolor quas sequi suscipit eos. Perferendis tempore architecto provident sit animi. Saepe provident, maxime sequi minima ducimus assumenda ipsa eos, dolore cumque asperiores id veritatis quia nulla pariatur. Inventore pariatur natus voluptas sunt, harum impedit veniam voluptates accusamus est rerum labore, laboriosam dignissimos modi incidunt nulla eveniet, voluptate nobis! Consequuntur voluptatem minus voluptatum asperiores impedit, doloribus id suscipit itaque. Cumque quasi, quisquam possimus consequatur ex, voluptatum error ullam expedita accusamus illum debitis ea. Reprehenderit, quis adipisci velit unde quidem alias? Aspernatur, pariatur quis modi ipsam laborum mollitia voluptates laudantium ipsa possimus deserunt quas ullam illo, facere reprehenderit assumenda laboriosam hic ab alias sint. Dolore fugit, delectus facilis repudiandae consequatur laboriosam quam deserunt cupiditate necessitatibus aliquid distinctio sequi veritatis placeat eius neque aspernatur nulla quidem est aperiam nisi sint. Rerum animi qui maxime similique nostrum perspiciatis accusamus iure iste! Eius veritatis animi ipsam ab dolores excepturi, expedita eos nemo magni incidunt corrupti adipisci, repellat neque. Provident, harum iure. Voluptatibus, quasi qui. Nam, laboriosam error totam impedit ex corrupti architecto sed minima accusamus aperiam assumenda voluptatibus voluptatum facere veniam saepe sapiente est. Animi quidem molestiae sint maxime delectus, cupiditate tenetur doloremque suscipit similique vel fugit aliquid possimus distinctio nobis dolore aperiam libero! Voluptas cumque inventore eligendi architecto perspiciatis corrupti, doloribus rerum sapiente assumenda minus atque amet officiis nisi maiores dolor laboriosam, maxime deleniti consequatur quam at! Sequi aspernatur at iure commodi eligendi? Molestiae ducimus, consequuntur fugit laboriosam dignissimos explicabo inventore minus blanditiis saepe. Nemo accusantium nihil modi repudiandae id corporis nobis sequi perferendis porro aut laboriosam iure corrupti, tempora totam asperiores impedit molestiae, obcaecati aspernatur cumque nam excepturi unde mollitia? Ea, molestias inventore. Suscipit nostrum eligendi sed cum inventore iusto vero? Eveniet illo quasi beatae vel, nostrum magni numquam, placeat non doloremque et consequatur itaque alias voluptates a debitis rerum sint ad, aut atque molestiae pariatur. Voluptatem saepe omnis deserunt quam itaque, quibusdam molestiae rerum facilis magnam, minus eveniet perspiciatis tenetur qui repudiandae consectetur nihil natus fugit praesentium. Nam dolore excepturi dolores. Cupiditate voluptates ipsam porro praesentium, eaque tempore architecto id iste voluptatibus magnam. Molestias est sint labore ducimus libero eveniet aperiam inventore minus, commodi expedita perferendis quia magnam autem, nobis explicabo mollitia dolores cumque temporibus. Similique, a est animi voluptas tempore molestias eveniet esse quod laudantium impedit quam voluptatem sint? Eius porro nisi ullam doloribus quidem voluptate dolorum, cum placeat soluta, fugiat hic vero optio eum natus ea ducimus? Optio explicabo qui molestias rerum. Et tenetur pariatur ipsa omnis, architecto aliquam excepturi placeat, deleniti nostrum quidem, enim nam fugiat! Possimus maiores adipisci laborum inventore error similique incidunt pariatur omnis consequuntur ea minus deleniti, dolor modi ipsa labore architecto culpa nisi quos veritatis nemo illum alias perspiciatis dignissimos velit? Earum, accusamus nostrum repudiandae necessitatibus ullam sapiente non eum dignissimos. Aspernatur, distinctio? Voluptate nemo accusamus at, et sapiente debitis, eum soluta, optio animi quam nam. Rem eius consectetur quo eos tempora fugiat molestias vero. Magnam mollitia aperiam officiis fuga vero laudantium totam aspernatur nulla, sint eius praesentium dignissimos cumque cupiditate aut ratione facere vitae sit eaque perspiciatis? Voluptates aperiam veritatis at, aliquid tempore exercitationem cumque, repellat animi asperiores modi adipisci ipsa facere ut a minima est voluptas molestiae atque. Quis pariatur blanditiis veritatis fugit quo. Earum tempora blanditiis, minus accusamus ipsa cumque debitis, ea, numquam sapiente nemo consectetur maiores. Distinctio, totam nihil, blanditiis assumenda laudantium pariatur voluptas earum iure perspiciatis illum obcaecati veritatis! Consequatur asperiores quas tempore ratione, enim fugiat possimus dicta reiciendis repudiandae maiores autem, magni nostrum porro! Quisquam accusantium sunt itaque, maxime quae ad, error numquam modi laudantium maiores hic a quia distinctio! Error inventore dolorem omnis sunt fugit ullam sequi! Corporis inventore eos vel quibusdam impedit ducimus consequatur eligendi accusamus placeat incidunt deserunt doloremque reprehenderit, beatae et architecto eaque cumque rem! Ullam possimus tempore architecto odio excepturi minima rerum voluptate voluptates suscipit corrupti dolorum, modi ex eum saepe autem voluptatibus deleniti rem. Placeat eos fuga temporibus nemo animi asperiores totam, debitis laborum, esse cum ullam dolorum doloremque velit distinctio? Qui tempore hic ipsa ducimus repudiandae odio distinctio debitis doloremque magni! Ut expedita rem eveniet quam voluptates explicabo cum eos nobis voluptatem, quos saepe illo deserunt, fuga, fugit ullam nesciunt fugiat aut alias. Magnam, vel illum ratione accusamus praesentium mollitia incidunt, nostrum expedita, quae eum repellat! Sed nam commodi fuga omnis repellat aperiam, unde nihil nisi reiciendis optio quia quo qui quis. Consequatur, praesentium similique numquam maiores dolorum modi ipsum blanditiis nostrum? Maxime voluptate obcaecati eum aliquid itaque aliquam maiores exercitationem nam? Harum laboriosam voluptatibus aliquid aut nisi nihil magnam, odio atque deleniti corrupti sit necessitatibus at iusto, odit voluptates, magni a tenetur officiis debitis provident ducimus nam accusantium aspernatur! Deserunt quasi repudiandae consequatur, quae dolores possimus saepe numquam expedita quo asperiores architecto nostrum maiores debitis est quos tenetur modi officia blanditiis perspiciatis adipisci excepturi itaque. Accusamus alias corporis nobis eaque error repellat dolor voluptatum consequatur velit! Perspiciatis sit rem, ipsam amet obcaecati reprehenderit molestiae, doloribus eveniet esse veritatis exercitationem unde adipisci optio quia ad laudantium? Maxime suscipit ipsum temporibus. Molestias debitis atque ad! Ab iure eius esse omnis non laborum minus pariatur aliquam assumenda nostrum laboriosam aspernatur eum saepe praesentium commodi quia, blanditiis eveniet. Veritatis molestias quasi ad impedit ex recusandae, cupiditate aspernatur, maiores, numquam quos totam alias! Porro corporis fugit aliquid.
+    <div class="py-8">
+      <div class="container mx-auto">
+        <div class="flex gap-4">
+          <div class="w-8/12">
+            <client-only>
+              <splide :options="desktop.options" has-slider-wrapper>
+                <splide-slide v-for="(item, index) in desktop.slider.datas" :key="index">
+                  <img :src="item.images" alt="slide.alt" class="w-full sd-banner object-cover"/>
+                </splide-slide>
+              </splide>
+            </client-only>
+          </div>
+          <div class="w-4/12">
+            <div class="flex flex-col gap-4">
+              <img src="https://s4.bukalapak.com/rev-banner/flash_banner/393877956/s-412-196/desktop_GajianGreatSaleVP_b5f2168b-5e87-47d6-92bd-37189c1a0174.jpeg.webp" alt="Golden Ratio" class="h-48">
+              <img src="https://s4.bukalapak.com/rev-banner/flash_banner/393877956/s-412-196/desktop_GajianGreatSaleVP_b5f2168b-5e87-47d6-92bd-37189c1a0174.jpeg.webp" alt="Golden Ratio" class="h-48">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="py-6">
+      <div class="container mx-auto">
+        <h4 class="sd-section-header">Lagi Populer</h4>
+        <div class="mt-6">
+          <div class="flex gap-4">
+            <div v-for="index of 6" :key="index" class="w-2/12">
+              <nuxt-link to="/" class="sd-category">
+                <img src="https://s4.bukalapak.com/athena/64/s-263-263/img_subcategory.jpeg.webp" alt="Categori 1" class="w-full h-auto object-cover">
+              </nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-8">
+      <div class="container mx-auto sd-section-divider">
+        <h4 class="mt-6 sd-section-header">Serbu Seru Produk Terbaru</h4>
+        <div class="mt-6">
+          <div class="flex gap-4">
+            <div v-for="index of 6" :key="index" class="w-2/12">
+              <nuxt-link to="/" class="sd-category">
+                <img src="https://s4.bukalapak.com/athena/64/s-263-263/img_subcategory.jpeg.webp" alt="Categori 1" class="w-full h-auto object-cover">
+              </nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <desktop-footer/>
   </div>
   <div v-else-if="$device.isMobileOrTablet">
     <phone-header/>
     <div class="ss-page">
       <div>
         <client-only>
-          <splide :options="options" has-slider-wrapper>
-            <splide-slide v-for="(item, index) in slider.datas" :key="index">
+          <splide :options="mobile.options" has-slider-wrapper>
+            <splide-slide v-for="(item, index) in mobile.slider.datas" :key="index">
               <img :src="item.images" alt="slide.alt" />
             </splide-slide>
           </splide>
@@ -76,6 +121,7 @@ import PhoneCardProductCategory from "@/components/phone/basic/card/productCateg
 import PhoneCardProduct from "@/components/phone/basic/card/product";
 
 import DesktopHeader from "@/components/desktop/header";
+import DesktopFooter from "@/components/desktop/footer";
 
 export default {
   transition: "fade",
@@ -86,19 +132,35 @@ export default {
     PhoneCardProductCategory,
     PhoneCardProduct,
 
-    DesktopHeader
+    DesktopHeader,
+    DesktopFooter,
   },
   data: () => ({
-    options: {
-      rewind: true,
-      perPage: 1,
-      autoplay: true,
-      pauseOnHover: false,
-      arrow: false
+    desktop: {
+      options: {
+        rewind: true,
+        perPage: 1,
+        autoplay: true,
+        pauseOnHover: false,
+        arrow: false
+      },
+      slider: {
+        datas: [],
+        loading: false
+      },
     },
-    slider: {
-      datas: [],
-      loading: false
+    mobile: {
+      options: {
+        rewind: true,
+        perPage: 1,
+        autoplay: true,
+        pauseOnHover: false,
+        arrow: false
+      },
+      slider: {
+        datas: [],
+        loading: false
+      },
     },
     product: {
       datas: [],
@@ -114,12 +176,37 @@ export default {
   },
   methods: {
     VIEW() {
-      this.STORE_sliders();
+      if (this.$device.isDesktop) {
+        this.STORE_Desktop_sliders();
+      }
+      else if (this.$device.isMobileOrTablet) {
+        this.STORE_Mobile_sliders();
+      }
       this.STORE_product_categories();
       this.STORE_products();
     },
-    STORE_sliders() {
-      this.slider.loading = true;
+    STORE_Desktop_sliders() {
+      this.desktop.slider.loading = true;
+      try {
+        const datas = [
+          {
+            images:"https://s4.bukalapak.com/rev-banner/flash_banner/887507528/s-628-412/desktop_GajianGreatSaleMerchant_88386863-1808-434a-9fe7-79e4fb5445d4.jpeg.webp"
+          },
+          {
+            images:"https://ecs7-p.tokopedia.net/img/cache/1208/NsjrJu/2021/1/25/e3c2f664-2d4e-409e-9d8f-59d917acd9bb.jpg.webp"
+          },
+          {
+            images:"https://ecs7-p.tokopedia.net/img/cache/1208/NsjrJu/2021/1/22/fcde9794-f31d-44be-a706-1735f8aa9c38.jpg.webp"
+          }
+        ];
+        this.desktop.slider.datas = datas;
+      } catch (err) {
+        console.error(err);
+      }
+      this.desktop.slider.loading = false;
+    },
+    STORE_Mobile_sliders() {
+      this.mobile.slider.loading = true;
       try {
         const datas = [
           {
@@ -135,11 +222,11 @@ export default {
             images:"https://ecs7-p.tokopedia.net/img/cache/800/VxWOnu/2021/1/18/b3b4af29-2bc2-41db-a002-4727b661ec3c.jpg.webp"
           },
         ];
-        this.slider.datas = datas;
+        this.mobile.slider.datas = datas;
       } catch (err) {
         console.error(err);
       }
-      this.slider.loading = false;
+      this.mobile.slider.loading = false;
     },
     STORE_product_categories() {
       this.product.category.loading = true;
