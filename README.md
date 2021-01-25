@@ -5,9 +5,13 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
+Desktop Demo View
+
+<img src="https://i.ibb.co/9ZGFvnt/ezgif-com-gif-maker.gif">
+
 Mobile Demo View
 
-<img src="https://i.ibb.co/b2GCRZC/9ce6e542-bde7-435b-a593-493f1348fc1c.gif">
+<img src="https://i.ibb.co/X2LdPhK/a90fe0e1-c145-4926-ae3e-2b72dc0a6859.gif">
 
 ## Installation
 
