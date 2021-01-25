@@ -7,14 +7,14 @@
 
 Mobile Demo View
 
-![](https://i.ibb.co/b2GCRZC/9ce6e542-bde7-435b-a593-493f1348fc1c.gif)
+<img src="https://i.ibb.co/b2GCRZC/9ce6e542-bde7-435b-a593-493f1348fc1c.gif">
 
 ## Installation
 
 Install dependencies:
 
 ```sh
-npm install my-crazy-module --save
+npm install
 ```
 
 Running development server:
