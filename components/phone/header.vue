@@ -9,12 +9,12 @@
         <phone-input
           :icon="true"
           :iconSearch="true"
-          :placeholder="'Cari produk di dystore...'"
+          :placeholder="'Cari produk di ' + app_name + '...'"
         />
       </div>
     </nav>
-    <nav v-else class="p-4 shadow-lg">
-      <div class="ss-header flex gap-4 justify-start items-center">
+    <nav v-else class="ss-header p-4 mb-24 shadow-lg">
+      <div class="flex gap-4 justify-start items-center">
         <a href="javascript:void(0)" @click="$router.go(-1)"
           ><arrow-left-icon
         /></a>
@@ -37,6 +37,11 @@ export default {
     ArrowLeftIcon,
 
     PhoneInput
+  },
+  computed: {
+    app_name() {
+      return process.env.APP_NAME;
+    },
   },
   data() {
     return {

@@ -1,4 +1,4 @@
-$colorPrimary: #3A2D78
+$colorPrimary: #1473ec
 $colorYellow: #FED215
 $colorSkyblue: #3ABEF0
 $colorBlack: #2e2d32
@@ -17,10 +17,18 @@ body
     max-width: 480px
   &-page
     margin-bottom: 80px
+    margin-top: 60px
+    &-index
+      margin-bottom: 80px
   &-header
+    position: fixed
+    z-index: 9999999999
+    width: 100%
+    top: 0
+    left: 0
     &-index
       position: fixed
-      z-index: 999
+      z-index: 9999999999
       width: 100%
     & a
       & i
@@ -50,9 +58,77 @@ body
         @apply text-primary
   &-card
     &-product
+      position: relative
+      overflow: hidden
       width: 100%
+      transition: .2s ease-in
+      &::before
+        content: ''
+        position: absolute
+        bottom: -30px
+        right: -30px
+        width: 80px
+        height: 80px
+        border-radius: 50%
+        transition: .2s ease-in
+        background-color: $colorPrimary !important
+      &::after
+        content: ''
+        position: absolute
+        bottom: -30px
+        right: -30px
+        width: 84px
+        height: 84px
+        border-radius: 50%
+        transition: .2s ease-in
+        border: 2px solid $colorPrimary
+        background-color: transparent
       &-category
+        position: relative
+        overflow: hidden
         width: 150px
+        transition: .2s ease-in
+        &::before
+          content: ''
+          position: absolute
+          top: -30px
+          right: -30px
+          width: 0
+          height: 70px
+          border-radius: 50%
+          transition: .2s ease-in
+          background-color: $colorPrimary !important
+        &::after
+          content: ''
+          position: absolute
+          top: -30px
+          right: -30px
+          width: 0
+          height: 74px
+          border-radius: 50%
+          transition: .2s ease-in
+          border: 2px solid $colorPrimary
+          background-color: transparent
+        &:hover::before
+          width: 70px
+        &:hover::after
+          width: 74px
+        &:hover
+          border-color: $colorPrimary
+  &-category
+    &-menu
+      @apply pt-4
+      @apply px-4
+      padding-bottom: 8.5rem
+      position: fixed
+      width: 100px
+      height: 100%
+      overflow: scroll
+    &-sub
+      @apply py-4
+      @apply pr-4
+      @apply pl-2
+      margin-left: 100px
 .sd
   &-header
     border-bottom: 1px solid $colorGrey
@@ -94,7 +170,7 @@ body
     &-header
       @apply font-semibold
       @apply text-2xl
-      @apply tracking-wider
+      @apply tracking-wide
   &-category
     img
       @apply rounded-md
@@ -103,6 +179,69 @@ body
       transition: .2s ease-in
     &:hover img
       @apply border-primary
+  &-card
+    &-product
+      position: relative
+      overflow: hidden
+      width: 100%
+      transition: .2s ease-in
+      &::before
+        content: ''
+        position: absolute
+        bottom: -30px
+        right: -30px
+        width: 0
+        height: 80px
+        border-radius: 50%
+        transition: .2s ease-in
+        background-color: $colorPrimary !important
+      &::after
+        content: ''
+        position: absolute
+        bottom: -30px
+        right: -30px
+        width: 0
+        height: 84px
+        border-radius: 50%
+        transition: .2s ease-in
+        border: 2px solid $colorPrimary
+        background-color: transparent
+      &:hover::before
+        width: 80px
+      &:hover::after
+        width: 84px
+      &-category
+        position: relative
+        overflow: hidden
+        width: 150px
+        transition: .2s ease-in
+        &::before
+          content: ''
+          position: absolute
+          top: -30px
+          right: -30px
+          width: 0
+          height: 70px
+          border-radius: 50%
+          transition: .2s ease-in
+          background-color: $colorPrimary !important
+        &::after
+          content: ''
+          position: absolute
+          top: -30px
+          right: -30px
+          width: 0
+          height: 74px
+          border-radius: 50%
+          transition: .2s ease-in
+          border: 2px solid $colorPrimary
+          background-color: transparent
+        &:hover::before
+          width: 70px
+        &:hover::after
+          width: 74px
+        &:hover
+          border-color: $colorPrimary
 
 input,
 textarea,
@@ -115,8 +254,3 @@ a
   transition: opacity .2s
 .fade-enter, .fade-leave-active
   opacity: 0
-
-
-
-.splide__arrow
-  display: none !important

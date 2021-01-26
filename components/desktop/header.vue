@@ -3,13 +3,13 @@
     <div class="container mx-auto">
       <div class="flex justify-between items-center">
         <div class="flex items-center gap-4">
-          <nuxt-link to="/">
-            <img src="@/assets/images/logo-primary.svg" alt="Logo" class="w-48 h-auto object-cover">
+          <nuxt-link to="/" class="whitespace-nowrap">
+            <h2 class="ft-heading text-2xl text-primary font-bold tracking-wide w-48">{{ app_name }}</h2>
           </nuxt-link>
           <desktop-input
             :icon="true"
             :iconSearch="true"
-            :placeholder="'Cari produk di dystore...'"
+            :placeholder="'Cari produk di ' + app_name + '...'"
           />
         </div>
         <div class="flex items-center gap-1">
@@ -38,6 +38,11 @@ export default {
     UserIcon,
 
     DesktopInput
+  },
+  computed: {
+    app_name() {
+      return process.env.APP_NAME;
+    },
   },
 }
 </script>

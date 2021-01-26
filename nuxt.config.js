@@ -18,7 +18,13 @@ export default {
   buildModules: [
     "@nuxtjs/tailwindcss",
     '@nuxtjs/device',
+    '@nuxtjs/axios',
   ],
+  env: {
+    APP_NAME: "Dystore",
+    API_MAIN: "",
+    API_KEY: ""
+  },
   modules: [],
   build: {},
 };

@@ -1,6 +1,6 @@
 <template>
   <nuxt-link to="/">
-    <div class="ss-card-product border border-grey2 rounded-xl p-3 text-center">
+    <div class="sd-card-product border border-grey2 rounded-xl p-3 text-center">
       <div class="absolute bottom-0 right-0 px-4 py-2">
         <button><shopping-cart-icon size="1x" class="text-white"/></button>
       </div>
