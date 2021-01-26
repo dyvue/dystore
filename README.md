@@ -1,17 +1,16 @@
 # Dystore
 > Online store desktop & mobile template with nuxtjs
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+![GitHub last commit](https://img.shields.io/github/last-commit/dyvue/dystore.svg)
+[![License](https://img.shields.io/github/license/dyvue/dystore.svg)](LICENSE)
 
 Desktop Demo View
 
-<img src="https://i.ibb.co/9ZGFvnt/ezgif-com-gif-maker.gif">
+<img src="https://i.ibb.co/PCZx46Q/desktop.gif">
 
 Mobile Demo View
 
-<img src="https://i.ibb.co/X2LdPhK/a90fe0e1-c145-4926-ae3e-2b72dc0a6859.gif">
+<img src="https://i.ibb.co/HnZfHxX/mobile.gif">
 
 ## Installation
 
@@ -38,11 +37,3 @@ npm run dev
 ## Live Demo
 
 <a href="https://dystore.vercel.app/">Demo here</a>
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
