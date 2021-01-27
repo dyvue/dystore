@@ -1,6 +1,6 @@
 export default {
   head: {
-    title: "Dystore",
+    title: process.env.APP_NAME,
     meta: [
       { charset: "utf-8" },
       { hid: "description", name: "description", content: "" }
@@ -11,20 +11,29 @@ export default {
     "@/assets/sass/style.sass"
   ],
   plugins: [
-    { src: '@/plugins/helpers/index' },
-    { src: '@/plugins/vue/splide', ssr: false }
+    { src: "@/plugins/helpers/index" },
+    { src: "@/plugins/vue/splide", ssr: false }
   ],
   components: true,
   buildModules: [
+    "@nuxtjs/dotenv",
     "@nuxtjs/tailwindcss",
-    '@nuxtjs/device',
-    '@nuxtjs/axios',
+    "@nuxtjs/device",
+    "@nuxtjs/axios",
   ],
   env: {
-    APP_NAME: "Dystore",
-    API_MAIN: "",
-    API_KEY: ""
+    APP_NAME: process.env.APP_NAME,
+    APP_URL: process.env.APP_URL,
+
+    API_MAIN: process.env.API_MAIN,
+    API_KEY: process.env.API_KEY
   },
   modules: [],
-  build: {},
+
+  // UNCOMMENT THIS LINE IF BUILD MODE
+
+  // globalName: process.env.APP_URL,
+  // build: {
+  //   publicPath: "/"
+  // },
 };
