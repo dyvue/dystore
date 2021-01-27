@@ -3,31 +3,31 @@
     <ul class="grid grid-cols-5 gap-3">
       <li class="ss-navigation-list" :class="listName('index')">
         <nuxt-link to="/" class="flex flex-col items-center justify-center py-3">
-          <home-icon size="1.1x"/>
+          <home-icon size="1.1x" class="ss-navigation-icon"/>
           <h5 class="text-xs font-semibold mt-1">Beranda</h5>
         </nuxt-link>
       </li>
       <li class="ss-navigation-list" :class="listName('category')">
         <nuxt-link to="/category" class="flex flex-col items-center justify-center py-3">
-          <codepen-icon size="1.1x"/>
+          <codepen-icon size="1.1x" class="ss-navigation-icon"/>
           <h5 class="text-xs font-semibold mt-1">Kategori</h5>
         </nuxt-link>
       </li>
       <li class="ss-navigation-list" :class="listName('cart')">
         <nuxt-link to="/cart" class="flex flex-col items-center justify-center py-3">
-          <shopping-cart-icon size="1.1x"/>
+          <shopping-cart-icon size="1.1x" class="ss-navigation-icon"/>
           <h5 class="text-xs font-semibold mt-1">Keranjang</h5>
         </nuxt-link>
       </li>
       <li class="ss-navigation-list" :class="listName('help')">
         <nuxt-link to="/help" class="flex flex-col items-center justify-center py-3">
-          <help-circle-icon size="1.1x"/>
+          <help-circle-icon size="1.1x" class="ss-navigation-icon"/>
           <h5 class="text-xs font-semibold mt-1">Bantuan</h5>
         </nuxt-link>
       </li>
       <li class="ss-navigation-list" :class="listName('account')">
         <nuxt-link to="/account" class="flex flex-col items-center justify-center py-3">
-          <user-icon size="1.1x"/>
+          <user-icon size="1.1x" class="ss-navigation-icon"/>
           <h5 class="text-xs font-semibold mt-1">Akun</h5>
         </nuxt-link>
       </li>

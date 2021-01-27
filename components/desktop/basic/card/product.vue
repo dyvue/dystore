@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/">
+  <nuxt-link :to="{ name: 'product-id-show', params: { id: id, show: $helpers.repl_whspace(name)} }">
     <div class="sd-card-product border border-grey2 rounded-xl p-3 text-center">
       <div class="absolute bottom-0 right-0 px-4 py-2">
         <button><shopping-cart-icon size="1x" class="text-white"/></button>
@@ -11,7 +11,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <span class="text-xs text-grey">Terjual 203</span>
-          <nuxt-link to="/">
+          <nuxt-link :to="{ name: 'product-id-show', params: { id: id, show: $helpers.repl_whspace(name)} }">
             <h5 class="text-sm hover:underline">{{ name }}</h5>
           </nuxt-link>
           <h6 class="font-extrabold text-lg tracking-wider">{{ $helpers.currency.idr(price) }}</h6>
@@ -26,7 +26,7 @@
 import { ShoppingCartIcon, MapPinIcon } from 'vue-feather-icons'
 export default {
   props: {
-    code: String,
+    id: String,
     name: String,
     price: Number,
     images: String,

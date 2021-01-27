@@ -47,7 +47,7 @@
           <div class="grid grid-cols-3 gap-4">
             <div v-for="(item, index) of product.datas" :key="index">
               <desktop-card-product
-                :code="'0001'"
+                :id="item.id"
                 :name="item.name"
                 :price="item.pricefinal"
                 :images="item.product_images[0].s3_url"
@@ -341,6 +341,7 @@ export default {
       try {
         const datas = [
           {
+            id: "00001",
             name: "Serum skincare wanita dan pria 100ml",
             pricefinal: 359999,
             product_images: [
@@ -350,6 +351,7 @@ export default {
             ]
           },
           {
+            id: "00002",
             name: "Sabun mandi cair untuk wanita 500ml",
             pricefinal: 149999,
             product_images: [
@@ -359,6 +361,7 @@ export default {
             ]
           },
           {
+            id: "00003",
             name: "Anggur merah cap orang tua 500ml",
             pricefinal: 99999,
             product_images: [
@@ -368,6 +371,7 @@ export default {
             ]
           },
           {
+            id: "00004",
             name: "Kopi semesta siap minum 500ml",
             pricefinal: 49999,
             product_images: [
@@ -377,6 +381,7 @@ export default {
             ]
           },
           {
+            id: "00005",
             name: "Serum skincare wanita dan pria 100ml",
             pricefinal: 359999,
             product_images: [
@@ -386,6 +391,7 @@ export default {
             ]
           },
           {
+            id: "00006",
             name: "Sabun mandi cair untuk wanita 500ml",
             pricefinal: 149999,
             product_images: [
@@ -395,6 +401,7 @@ export default {
             ]
           },
           {
+            id: "00007",
             name: "Anggur merah cap orang tua 500ml",
             pricefinal: 99999,
             product_images: [
@@ -404,6 +411,7 @@ export default {
             ]
           },
           {
+            id: "00008",
             name: "Kopi semesta siap minum 500ml",
             pricefinal: 49999,
             product_images: [
@@ -413,6 +421,7 @@ export default {
             ]
           },
           {
+            id: "00009",
             name: "Serum skincare wanita dan pria 100ml",
             pricefinal: 359999,
             product_images: [
@@ -422,6 +431,7 @@ export default {
             ]
           },
           {
+            id: "00010",
             name: "Sabun mandi cair untuk wanita 500ml",
             pricefinal: 149999,
             product_images: [
@@ -431,6 +441,7 @@ export default {
             ]
           },
           {
+            id: "00011",
             name: "Anggur merah cap orang tua 500ml",
             pricefinal: 99999,
             product_images: [
@@ -440,6 +451,7 @@ export default {
             ]
           },
           {
+            id: "00012",
             name: "Kopi semesta siap minum 500ml",
             pricefinal: 49999,
             product_images: [

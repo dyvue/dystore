@@ -22,14 +22,22 @@ const date = (format, value) => {
   }
 }
 
-const cutdesc = (text, length) => {
-  return text.slice(0, length) + " ..."
+const cutstr = (text, length) => {
+  if (text.length > length) {
+    return text.slice(0, length) + "..."
+  }
+  else return text
+}
+
+const repl_whspace = (text) => {
+  return text.replace(/\s/g, '-').toLowerCase()
 }
 
 const _helpers = {
   currency,
   date,
-  cutdesc
+  cutstr,
+  repl_whspace
 }
 
 export default ({}, inject) => {

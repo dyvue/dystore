@@ -8,6 +8,10 @@ $colorForm: #f9fafc
 body
   color: $colorBlack
 
+.text
+  &-xxs
+    font-size: 10px
+
 .ss
   &-frame
     position: relative
@@ -56,6 +60,8 @@ body
       @apply text-black
       &.active
         @apply text-primary
+        .ss-navigation-icon
+          fill: $colorPrimary
   &-card
     &-product
       position: relative
@@ -124,11 +130,20 @@ body
       width: 100px
       height: 100%
       overflow: scroll
+      &-box
+        cursor: pointer
+        &:hover
+          @apply bg-primary
+          @apply text-form
+        &.active
+          @apply bg-primary
+          @apply text-form
     &-sub
       @apply py-4
       @apply pr-4
-      @apply pl-2
       margin-left: 100px
+  &-shadow
+    box-shadow: 0 0 25px -4px $colorGrey
 .sd
   &-header
     border-bottom: 1px solid $colorGrey
@@ -243,11 +258,17 @@ body
         &:hover
           border-color: $colorPrimary
 
+.gl
+  &-star
+    fill: $colorYellow
+    color: $colorYellow
+
 input,
 textarea,
 button,
 select,
-a
+a,
+div
   -webkit-tap-highlight-color: rgba(0,0,0,0)
 
 .fade-enter-active, .fade-leave-active 
